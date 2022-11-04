@@ -104,7 +104,7 @@ echo "<br />";
 //External
 echo _externalcheck;
 echo " - ";
-$fp = @fopen("http://btmanager.org","r");
+$fp = @fopen("https://an602.86it.us","r");
 if (!$fp) {
         $warn = true;
         warn();

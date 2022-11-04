@@ -20,7 +20,7 @@ echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
         <html xmlns="http://www.w3.org/1999/xhtml" dir="' . $user->lang['DIRECTION'] .'" lang="' . $user->lang['USER_LANG'] . '" xml:lang="' . $user->lang['USER_LANG'] . '" />
             <head>
                 <meta http-equiv="content-type" content="text/html; charset=' . $user->lang['CONTENT_ENCODING'] . '" />
-                <meta name="generator" content="BTManager ' . $version . '" />
+                <meta name="generator" content="PHP-AN602 ' . $version . '" />
                 <meta http-equiv="pragma" content="no-cache" />
                 <meta http-equiv="expires" content="-1" />
                 <meta http-equiv="cache-control" content="no-cache" />

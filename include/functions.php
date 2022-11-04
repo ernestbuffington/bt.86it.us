@@ -5156,7 +5156,7 @@ function redirect($url, $return = false, $disable_cd_check = false)
                 <html xmlns="http://www.w3.org/1999/xhtml" dir="' . $user->lang['DIRECTION'] . '" lang="' . $user->ulanguage . '" xml:lang="' . $user->ulanguage . '" />
                 <head>
                     <meta http-equiv="content-type" content="text/html; charset=' . $user->lang['CONTENT_ENCODING'] . '" />
-                    <meta name="generator" content="BTManager ' . $version . '" />
+                    <meta name="generator" content="PHP-AN602 ' . $version . '" />
                     <meta http-equiv="expires" content="-1" />
                     <meta http-equiv="cache-control" content="no-cache" />
                     <meta http-equiv="refresh" content="0; url=' . str_replace('&', '&amp;', $url) . '" />

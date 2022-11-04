@@ -30,7 +30,7 @@ header("HTTP/1.0 Error 404 - Page Not Found");
     <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb" />
         <head>
             <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-            <meta name="generator" content="BTManager 3.0.1" />
+            <meta name="generator" content="PHP-AN602 3.0.1" />
             <meta http-equiv="pragma" content="no-cache" />
             <meta http-equiv="expires" content="-1" />
             <meta http-equiv="cache-control" content="no-cache" />

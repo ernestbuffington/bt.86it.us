@@ -29,7 +29,7 @@ if (!defined('IN_AN602'))
 }
 
 $user->set_lang('admin/acp_webupdate',$user->ulanguage);
-$serverurl = "http://btmanager.org";
+$serverurl = "https://an602.86it.us";
 $u_action = 'admin.php?i=siteinfo&op=webupdate';
 
 do {

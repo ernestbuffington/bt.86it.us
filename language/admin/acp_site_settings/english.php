@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
                           '0' => 'No'),
 
     '_admsaved'            => 'Settings Saved!',
-    '_admconfigttl'        => 'BTManager Configuration',
+    '_admconfigttl'        => 'PHP-AN602 Configuration',
 
     '_admconfigttlexplain' => 'Here you can Setup the Basic Operation of your Tracker, Site Name and Description among other Settings where you can Adjust the Default Values for Themes and Languages.<br /><br />',
 
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 
     '_admpcookiepath'          => 'Cookie Path',
 
-    '_admpcookiepathexplain'   => 'Cookie Path.  Change this Setting <strong>ONLY</strong> if BTManager is Installed in a <strong>Sub-Directory</strong> on your Server.  If your Installation is in <strong>http://yoursite.com/btmanager</strong>, the Setting should be <strong>/btmanager</strong>',
+    '_admpcookiepathexplain'   => 'Cookie Path.  Change this Setting <strong>ONLY</strong> if PHP-AN602 is Installed in a <strong>Sub-Directory</strong> on your Server.  If your Installation is in <strong>http://yoursite.com/an602</strong>, the Setting should be <strong>/an602</strong>',
 
     '_admpuse_gzip'        => 'Use gzip Compression',
 
@@ -253,8 +253,13 @@ $lang = array_merge($lang, array(
 
     '_admpdisclaimer_checkexplain' => 'If Checked, Users have to Accept a Disclaimer before they can Register.  You can Change the Disclaimer by Changing the File <strong>/disclaimer/english.txt</strong>',
 
-    '_admpgfx_check'        => 'CAPTCHA Setting',
-    '_admpgfx_checkexplain' => 'If Checked, Users will have to Type in a Code from a CAPTCHA Image when Registering and Logging In.',
+    
+	'CAPTCHA_SETTINGS'        => 'CAPTCHA SETTINGS',
+	
+	'_admpgfx_check'        => 'CAPTCHA Setting',
+    
+	
+	'_admpgfx_checkexplain' => 'If Checked, Users will have to Type in a Code from a CAPTCHA Image when Registering and Logging In.',
 
     '_admpupload_level'        => 'Upload Access Level',
 
@@ -330,11 +335,12 @@ $lang = array_merge($lang, array(
 
     '_admpstealthmode'        => 'Disable Local Tracker',
 
-    '_admpstealthmodeexplain' => 'This will Disable and Hide the Local Tracker.  BTManager will ONLY Accept Externally Tracked Torrents.',
+    '_admpstealthmodeexplain' => 'This will Disable and Hide the Local Tracker.  PHP-AN602 will ONLY Accept Externally Tracked Torrents.',
 
     'SITE_SETTINGS'        => 'Board Configuration',
     'MENU_PRIVATE_MESSAGE' => 'Private Message Settings',
-    'MENU_BBCODE'          => 'BBcode Settings',
+    'ACP_CAPTCHA'          => 'Captcha Settings',
+	'MENU_BBCODE'          => 'BBcode Settings',
     'TRACKER_SETTINGS'     => 'Tracker Settings',
     'TRACKER_SETTINGS_EXPLAIN'     => 'This is where you setup your Tracker configurations.',
     'USER_SETTINGS'        => 'User Settings',

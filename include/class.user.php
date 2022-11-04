@@ -613,18 +613,18 @@ class User {
             $page_dir = substr($page_dir, 0, -1);
         }
 
-        // Current page from BTManager root (for example: adm/index.php?i=10&b=2)
+        // Current page from PHP-AN602 root (for example: adm/index.php?i=10&b=2)
         $page = (($page_dir) ? $page_dir . '/' : '') . $page_name . (($query_string) ? "?$query_string" : '');
 
         // The script path from the webroot to the current directory (for example: /phpBB3/adm/) : always prefixed with / and ends in /
         $script_path = trim(str_replace('\\', '/', dirname($script_name)));
 
-        // The script path from the webroot to the BTManager root (for example: /BTManager/)
+        // The script path from the webroot to the PHP-AN602 root (for example: /PHP-AN602/)
         $script_dirs = explode('/', $script_path);
         array_splice($script_dirs, -sizeof($page_dirs));
         $root_script_path = implode('/', $script_dirs) . (sizeof($root_dirs) ? '/' . implode('/', $root_dirs) : '');
 
-        // We are on the base level (BTManager root == webroot), lets adjust the variables a bit...
+        // We are on the base level (PHP-AN602 root == webroot), lets adjust the variables a bit...
         if (!$root_script_path)
         {
             $root_script_path = ($page_dir) ? str_replace($page_dir, '', $script_path) : $script_path;

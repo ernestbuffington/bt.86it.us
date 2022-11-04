@@ -67,7 +67,7 @@ $db->sql_freeresult($cfgres);
                                 $template->assign_block_vars('l_block1.l_block2.l_block3',array(
                                 'S_SELECTED'    => ('settings_captch' ==$op)? true:false,
                                 'IMG' => '',
-                                'L_TITLE' => 'ACP_CAPTCHA',//$user->lang['MENU_PRIVATE_MESSAGE'],
+                                'L_TITLE' => $user->lang['ACP_CAPTCHA'],
                                 'U_TITLE' => append_sid("{$siteurl}/admin.$phpEx", 'i=siteinfo&amp;op=settings_captch'),
                                 ));
                             }

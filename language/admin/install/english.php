@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'INTRO_UPGRADE'                 => 'Welcome to the BT.Manager Upgrade System',
+    'INTRO_UPGRADE'                 => 'Welcome to the PHP-AN602 Upgrade System',
 
     'INTRO_UPGRADE_EXP'             => 'The Upgrade System will Scan your Database to Check for any Missing Tables and will attempt to Add them.<br />If a Table is Missing a Column/Row or if one Does Not Match it will then try to Add them or Convert yours in order for you to Install the New Release.',
 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
     'INLINE_UPDATE_SUCCESSFUL'      => 'The Database Update was Successful.',
     'FINAL_SETS'                    => 'Now that the Update is Complete you can now:-<br />
 
-    <li>Update your Files with the Newest Release of BT.Manager</li>
+    <li>Update your Files with the Newest Release of PHP-AN602</li>
     <li>If you had any Mods Installed on your Site you will need to Reinstall them.</li>
     <ol><li>After you have Updated ALL your Files you will need to Proceed to the Usergroup Management in your Administration Panel and Update your:-</li>
     <li>Groups Permissions</li>

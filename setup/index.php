@@ -206,7 +206,7 @@ echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n";
 echo "<html>\n";
 echo "<head>\n";
 echo "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n";
-echo "<title>BT.Manager - Setup</title>\n";
+echo "<title>PHP-AN602 - Setup</title>\n";
 echo "<link rel=\"StyleSheet\" href=\"graphics/style.css\" type=\"text/css\">\n";
 
 if (isset($language) AND $language != "" AND is_readable("language/".$language.".php")) {

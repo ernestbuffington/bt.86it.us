@@ -55,8 +55,8 @@ $sql = "SELECT * FROM ".$db_prefix."_config LIMIT 1;";
 
 $configquery = $db->sql_query($sql);
 
-if (!$configquery) die($sql."BTManager not correctly installed! Ensure you have run setup!!");
-if (!$row = $db->sql_fetchrow($configquery)) die("BTManager not correctly installed! Ensure you have run setup!!");
+if (!$configquery) die($sql."PHP-AN602 not correctly installed! Ensure you have run setup!!");
+if (!$row = $db->sql_fetchrow($configquery)) die("PHP-AN602 not correctly installed! Ensure you have run setup!!");
 $sitename = $row["sitename"];
 $siteurl = $row["siteurl"];
 $admin_email = $row["admin_email"];

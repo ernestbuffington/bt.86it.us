@@ -9,7 +9,7 @@ INSERT INTO `#prefix#_settings` (`config_name`, `config_value`, `is_dynamic`) VA
 ('email_package_size', '0', 0),
 ('board_contact', '', 0),
 ('board_email', '', 0),
-('board_email_sig', 'BT.Manager Staff', 0),
+('board_email_sig', 'PHP-AN602 Staff', 0),
 ('smtp_delivery', '1', 0),
 ('smtp_host', '', 0),
 ('smtp_port', '465', 0),

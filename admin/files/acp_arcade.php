@@ -129,7 +129,7 @@ class acp_arcade
             break;
             case 'update':
                 require('includes/pclzip.lib.' . $phpEx);
-                $newver = get_remote_file('www.phpAR.com', '/update', 'phpARversion.txt', $errstr, $errno);
+                $newver = get_remote_file('www.php-nuke-titanium.86it.us', '/versions', 'phpARversion.txt', $errstr, $errno);
                 $curver = $user->lang['AR_VERSION'];
                 $requestfile = 'http://www.phpAR.com/update/'.$curver.'-'.$newver.'.zip';
                 $newfile = './phpARbeta.zip';
@@ -1491,12 +1491,12 @@ class acp_arcade
 //chmod('flash/tmp/', 0777);
 //chmod('flash/images/', 0777);
                 }
-                $viewfile = get_remote_file('www.phpar.com', '/update', 'phpARversion.txt', $errstr, $errno);
+                $viewfile = get_remote_file('www.php-nuke-titanium.86it.us', '/versions', 'phpARversion.txt', $errstr, $errno);
                 if ($viewfile)
                 {
                     $curver = $user->lang['AR_VERSION'];
                     $url = $this->u_action . "&amp;action=update";
-                    $updateinfo = ' <strong>' . $curver . '</strong> ' . $user->lang['OUT_OF_DATE'] . ' <strong>' . $viewfile . '</strong> ' . $user->lang['OUT_NOW'] . ' <br /><a href="'.$url.'" target="_blank">' . $user->lang['CLICK_UPDATE'] . '</a><br /><a href="http://www.phpar.com/viewtopic.php?f=6&t=3">' . $user->lang['CLICK_UPDATE_ALT'] . '</a>';
+                    $updateinfo = ' <strong>' . $curver . '</strong> ' . $user->lang['OUT_OF_DATE'] . ' <strong>' . $viewfile . '</strong> ' . $user->lang['OUT_NOW'] . ' <br /><a href="'.$url.'" target="_blank">' . $user->lang['CLICK_UPDATE'] . '</a><br /><a href="http://www.arcade.86it.us/viewtopic.php?f=6&t=3">' . $user->lang['CLICK_UPDATE_ALT'] . '</a>';
                     if (version_compare($viewfile, $curver, '>'))
                     {
                         $template->assign_var('L_ARCADE_RESYNCED', $updateinfo);

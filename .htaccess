@@ -79,3 +79,10 @@ deny from 34.236.18.197
 deny from 13.232.96.15
 deny from 213.32.20.107
 deny from 52.60.189.115
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

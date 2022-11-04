@@ -1,10 +1,10 @@
 <?php
 /**
 **********************
-** BTManager v3.0.1 **
+** PHP-AN602 v3.0.1 **
 **********************
 ** https://an602.86it.us/
-** https://github.com/blackheart1/BTManager
+** https://github.com/php-an602/php-an602
 ** https://an602.86it.us/index.php (DEMO)
 ** Apache License, Version 2.0, MIT license 
 ** Copyright (C) 2022

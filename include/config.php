@@ -46,7 +46,7 @@ if (!file_exists("include/configdata.php"))
 }
 
 if (file_exists("setup/index.php"))
-    die("You MUST Delete the Setup Directory before running BT.Manager");
+  //  die("You MUST Delete the Setup Directory before running PHP-AN602");
 
 /*
 WARNING: (IIS USERS)
@@ -84,7 +84,7 @@ if (!$db->db_connect_id)
     $errmsg = $err['message'];
 
     die("<html>\n
-            <head><title>BT.Manager Error</title>\n</head>\n
+            <head><title>PHP-AN602 Error</title>\n</head>\n
                 <body>\n
                 <!-- Error: $errmsg -->\n
                 <p><center>\n
@@ -108,9 +108,9 @@ if (!$row = $pmbt_cache->get_sql("config"))
 
     $configquery = $db->sql_query($sql);
 
-    if (!$configquery) die("Configuration Not Found!  Make sure you have Installed BT.Manager correctly.");
+    if (!$configquery) die("Configuration Not Found!  Make sure you have Installed PHP-AN602 correctly.");
 
-    if (!$row = $db->sql_fetchrow($configquery)) die("BT.Manager not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
+    if (!$row = $db->sql_fetchrow($configquery)) die("PHP-AN602 not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
 
     $pmbt_cache->set_sql("config", $row, 200);
     $db->sql_freeresult($configquery);
@@ -122,9 +122,9 @@ if (!$row3 = $pmbt_cache->get_sql("userautodel"))
 
     $userautodel = $db->sql_query($sql);
 
-    if (!$userautodel) die("Configuration Not Found!  Make sure you have Installed BT.Manager correctly.");
+    if (!$userautodel) die("Configuration Not Found!  Make sure you have Installed PHP-AN602 correctly.");
 
-    if (!$row3 = $db->sql_fetchrow($userautodel)) die("BT.Manager not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
+    if (!$row3 = $db->sql_fetchrow($userautodel)) die("PHP-AN602 not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
 
     $pmbt_cache->set_sql("userautodel", $row3);
     $db->sql_freeresult($userautodel);
@@ -136,9 +136,9 @@ if (!$row2 = $pmbt_cache->get_sql("paypal"))
 
     $paypal = $db->sql_query($sql);
 
-    if (!$paypal) die("Configuration Not Found!  Make sure you have Installed BT.Manager correctly.");
+    if (!$paypal) die("Configuration Not Found!  Make sure you have Installed PHP-AN602 correctly.");
 
-    if (!$row2 = $db->sql_fetchrow($paypal)) die("BT.Manager not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
+    if (!$row2 = $db->sql_fetchrow($paypal)) die("PHP-AN602 not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
 
     $pmbt_cache->set_sql("paypal", $row2);
     $db->sql_freeresult($paypal);
@@ -150,9 +150,9 @@ if (!$row4 = $pmbt_cache->get_sql("shout"))
 
     $shout = $db->sql_query($sql);
 
-    if (!$shout) die("Configuration Not Found!  Make sure you have Installed BT.Manager correctly.");
+    if (!$shout) die("Configuration Not Found!  Make sure you have Installed PHP-AN602 correctly.");
 
-    if (!$row4 = $db->sql_fetchrow($shout)) die("BT.Manager not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
+    if (!$row4 = $db->sql_fetchrow($shout)) die("PHP-AN602 not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
 
     $pmbt_cache->set_sql("shout", $row4);
     $db->sql_freeresult($shout);
@@ -166,9 +166,9 @@ if (!$row5 = $pmbt_cache->get_sql("search_cloud"))
 
     $search = $db->sql_query($sql);
 
-    if (!$search) die("Configuration Not Found!  Make sure you have Installed BT.Manager correctly.");
+    if (!$search) die("Configuration Not Found!  Make sure you have Installed PHP-AN602 correctly.");
 
-    if (!$row5 = $db->sql_fetchrow($search)) die("BT.Manager not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
+    if (!$row5 = $db->sql_fetchrow($search)) die("PHP-AN602 not Installed Correctly!  Ensure you have run setup.php or config_default.sql!!");
 
     $pmbt_cache->set_sql("search_cloud", $row5);
     $db->sql_freeresult($search);
@@ -402,7 +402,7 @@ elseif (file_exists("./themes/Bitfarm/main.php"))
 }
 else
 {
-    die("Cannot run without Theme!  Reinstall BT.Manager NOW!!");
+    die("Cannot run without Theme!  Reinstall PHP-AN602 NOW!!");
 }
 
 $reason = '';

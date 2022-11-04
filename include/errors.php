@@ -86,7 +86,7 @@ function myErrorHandler($errno, $errstr, $errfile, $errline)
             echo '<html xmlns="http://www.w3.org/1999/xhtml" dir="' . $user->lang['DIRECTION'] . '" lang="' . $user->lang['USER_LANG'] . '" xml:lang="' . $user->lang['USER_LANG'] . '" />';
             echo '<head>';
             echo '<meta http-equiv="content-type" content="text/html; charset=' . $user->lang['CONTENT_ENCODING'] . '" />';
-            echo '<meta name="generator" content="BTManager ' . $version . '" />';
+            echo '<meta name="generator" content="PHP-AN602 ' . $version . '" />';
             echo '<meta http-equiv="pragma" content="no-cache" />';
             echo '<meta http-equiv="expires" content="-1" />';
             echo '<meta http-equiv="cache-control" content="no-cache" />';
@@ -119,7 +119,7 @@ function myErrorHandler($errno, $errstr, $errfile, $errline)
             echo '  </div>';
             echo '  </div>';
             echo '  <div id="page-footer">';
-            echo '      <a target="_blank" href="http://www.btmanager.org">BTManager&#8482;</a>';
+            echo '      <a target="_blank" href="http://www.an602.86it.us">PHP-AN602&#8482;</a>';
             echo '  </div>';
             echo '</div>';
             echo '</body>';

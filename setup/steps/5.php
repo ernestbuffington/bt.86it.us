@@ -196,7 +196,7 @@ if (!isset($postback)) { //Set default parameters
         if (preg_match("/(.*)\/setup\/index\.php/i",$pmbturl["path"],$pmreg)) $pmpath = $pmreg[1];
         else $pmpath = "/";
 
-        $cfgrow["sitename"] = "BT.Manager";
+        $cfgrow["sitename"] = "PHP-AN602";
         $cfgrow["siteurl"] = $pmbturl["scheme"]."://".$pmbturl["host"].$pmpath;
         $cfgrow["cookiedomain"] = $pmbturl["host"];
         $cfgrow["cookiepath"] = $pmpath;

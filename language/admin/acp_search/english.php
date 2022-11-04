@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 
     'SEARCH_TYPE'                           => 'Search System',
 
-    'SEARCH_TYPE_EXPLAIN'                   => 'BTManager Allows you to choose the System that is Used for Searching Text in Post\'s.  By Default the Search will use BTManager\'s own fulltext Search.',
+    'SEARCH_TYPE_EXPLAIN'                   => 'PHP-AN602 Allows you to choose the System that is Used for Searching Text in Post\'s.  By Default the Search will use PHP-AN602\'s own fulltext Search.',
 
     'SWITCHED_SEARCH_BACKEND'               => 'You Switched the Search System.  In Order to use the New Search System you should make sure that there is an Index for the System you chose.',
 

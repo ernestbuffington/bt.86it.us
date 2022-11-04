@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 
     'FORUM_IMAGE'                      => 'Forum Image',
 
-    'FORUM_IMAGE_EXPLAIN'              => 'Enter the Location, Relative to the BTManager Root Directory, for the Image you\'d like to Associate with this Forum e.g. <em>themes/1thank/pics/admin/icon_edit.gif</em>',
+    'FORUM_IMAGE_EXPLAIN'              => 'Enter the Location, Relative to the PHP-AN602 Root Directory, for the Image you\'d like to Associate with this Forum e.g. <em>themes/1thank/pics/admin/icon_edit.gif</em>',
 
     'FORUM_IMAGE_NO_EXIST'             => 'The Specified Forum Image DOES NOT Exist',
     'WARNING'                          => 'WARNING',

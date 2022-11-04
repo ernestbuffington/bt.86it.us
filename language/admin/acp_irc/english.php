@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'IRC_INTRO'           => 'Configure BTManager\'s Built-in IRC Chat.',
+    'IRC_INTRO'           => 'Configure PHP-AN602\'s Built-in IRC Chat.',
 
     'IRC_INTRO_EXP'       => 'You can Configure every aspect of the PJIRC Client:  Please Read PJIRC\'s Documentation before Editing Advanced Parameters.<br />
 
