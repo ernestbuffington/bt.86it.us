@@ -52,7 +52,8 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
 ## PHP-AN602 is not only BitTorrent!
 ```bash
   There are many ways other than BitTorrent to share your files. 
-  GNutella, Direct Connect, eDonkey are some of them. ed2k and Magnet URIs are automatically generated for all files in a torrent, and are presented as alternate Links.
+  GNutella, Direct Connect, eDonkey are some of them. ed2k and Magnet URIs are automatically 
+  generated for all files in a torrent, and are presented as alternate Links.
   You can also allow users to submit Magnet and ed2k links without a torrent.
  ```
  
