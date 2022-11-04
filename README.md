@@ -59,7 +59,8 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
  
 ## PHP-AN602 has low requirements!
 ```bash
-  All you need is some webspace with PHP and a MySQL database to start building your File-Sharing Community.
+  All you need is some webspace with PHP and a MySQL database to start building your 
+  File-Sharing Community.
 ```
 
 ## PHP-AN602 is secure!
