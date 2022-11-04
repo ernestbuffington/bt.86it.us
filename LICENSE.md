@@ -10,7 +10,7 @@ at your option.
 ## MIT License
 
 Copyright (c) 2018-2022 Brandon Maintenance Management LLC <brandon.maintenance.management@gmail.com> and PHP-AN602 contributors
-                        (https://github.com/ernestbuffington/PHP-Nuke.Titanium.Dev.4/graphs/contributors)
+                        (https://github.com/php-an602/php-an602/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
