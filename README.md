@@ -90,6 +90,6 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
 
 ## PHP-AN602 is fast!
 ```bash
-	It uses the minimum number of code lines required to do all the amazing things it does. 
-	Memory usage is low because every single variable is deleted when not needed any more.
+  It uses the minimum number of code lines required to do all the amazing things it does. 
+  Memory usage is low because every single variable is deleted when not needed any more.
 ```
