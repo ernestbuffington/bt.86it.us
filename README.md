@@ -77,10 +77,9 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
 
 ## PHP-AN602 is easy on the eye!
 ```bash
-	You can choose your personal theme that reflects your style, choose your avatar displayed next to comments you make ..
-	we Have over 2 themes are growing.
-	We use a theme system so you can make your site look how you want it to
-	and not like everyone else.
+	You can choose your personal theme that reflects your style, choose your avatar displayed 
+	next to comments you make. We Have over 2 themes and are growing. We use a theme system 
+	so you can make your site look how you want it to and not like everyone elses.
 ```
 
 ## PHP-AN602 uses a Template System
