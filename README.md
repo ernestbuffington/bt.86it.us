@@ -64,16 +64,16 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
 ```
 
 ## PHP-AN602 is secure!
-```bash
+``bash
   Stop leechers from downloading more than their share! Choose who can download your files 
   and who can't. See who is downloading your Torrent and who is helping you share it. 
   Define rules to avoid annoyance by Download Requests. Choose friends and foes. Keep your 
-  anonymity. And that's just the tip of the iceberg add a password to your torrent download 
-  so only people you know can get the files No one well see your torrent in the torrent 
-  lest(admins over ride) so they well not be able to just browse them They would even need 
+  anonymity. And that's just the tip of the iceberg. Add a password to your torrent download 
+  so only people you know can get the files. No one will see your torrent in the torrent 
+  list(admins over ride) so they will not be able to just browse them They would even need 
   the password to view the details. Set a ratio on your torrents so no one with a low ratio 
   can get them.
-```
+``
 
 ## PHP-AN602 is easy on the eye!
 ```bash
