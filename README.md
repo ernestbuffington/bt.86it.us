@@ -2,7 +2,7 @@
 
 PHP-AN602 is a cross-platform mobile and web development CMS solution running on PHP 8.x. created by the members of The 86it Developers Network and has been in development since November 26, 2020
 
-PHP-AN602 is the brand new Open Source solution for BitTorrent communities!
+PHP-AN602 is the brand new Open Source solution for Flash Arcade, Blogger, Developer, Online Gaming, and BitTorrent communities!
 
 ## PHP-AN602 is not just a simple tracker like the ones you see around.
 ```bash
