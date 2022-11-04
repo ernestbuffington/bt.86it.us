@@ -46,7 +46,7 @@ by step in no time, even if you've never heard of PHP/MySQL.
 ## PHP-AN602 is up-to-date!
 ```bash
 PHP-AN602 supports all the latest BitTorrent Protocol Extensions, including 
-  Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Backup Tracker, etc.
+Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Backup Tracker, etc.
  ```
   
 ## PHP-AN602 is not only BitTorrent!
