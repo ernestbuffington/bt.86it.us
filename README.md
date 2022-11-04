@@ -34,9 +34,11 @@ PHP-AN602 requires the following :
 ## PHP-AN602 is Free Software!
 ```bash
 PHP-AN602 is Open Source Software, distributed under the GNU/GPL license. 
-  This means that the code is open for scrutiny by anyone, and anybody can join in the development effort.
+  This means that the code is open for scrutiny by anyone, and anybody 
+  can join in the development effort.
 PHP-AN602 is easy!
-PHP-AN602 is provided with full documentation to help you install it step by step in no time, even if you've never heard of PHP/MySQL.
+PHP-AN602 is provided with full documentation to help you install it step 
+by step in no time, even if you've never heard of PHP/MySQL.
 ```
 
 ## PHP-AN602 is up-to-date!
