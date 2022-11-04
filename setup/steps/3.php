@@ -1,23 +1,23 @@
 <?php
 
 /**
-**********************
-** BTManager v3.0.2 **
-**********************
-** http://www.btmanager.org/
-** https://github.com/blackheart1/BTManager3.0.2
-** http://demo.btmanager.org/index.php
-** Licence Info: GPL
+*****************************************************************************************
+** PHP-AN602  (Titanium Edition) v1.0.0 - Project Start Date 11/04/2022 Friday 4:09 am **
+*****************************************************************************************
+** https://an602.86it.us/
+** https://github.com/php-an602/php-an602
+** https://an602.86it.us/index.php (DEMO)
+** Apache License, Version 2.0, MIT license 
 ** Copyright (C) 2021
-** Formerly Known As phpMyBitTorrent
-** Created By Antonio Anzivino (aka DJ Echelon)
+** Formerly Known As PHP-Nuke by Francisco Burzi <fburzi@gmail.com>
+** Created By Ernest Allen Buffington (aka TheGhost or Ghost) <ernest.buffington@gmail.com>
 ** And Joe Robertson (aka joeroberts)
 ** Project Leaders: Black_heart, Thor.
 ** File steps/3.php 2020-12-22 00:00:00 Black_Heart
 **
 ** CHANGES
 **
-** 2018-09-21 - Updated Masthead, Github, !defined('IN_BTM')
+** 2018-09-21 - Updated Masthead, Github, !defined('IN_AN602')
 ** 2020-12-22 - Updated File location in header
 **/
 
@@ -44,23 +44,25 @@ $showpanel = false;
 $configproto = <<<EOF
 <?php
 /**
-**********************
-** BTManager v3.0.2 **
-**********************
-** http://www.btmanager.org/
-** https://github.com/blackheart1/BTManager3.0.2
-** http://demo.btmanager.org/index.php
-** Licence Info: GPL
+*****************************************************************************************
+** PHP-AN602  (Titanium Edition) v1.0.0 - Project Start Date 11/04/2022 Friday 4:09 am **
+*****************************************************************************************
+** https://an602.86it.us/
+** https://github.com/php-an602/php-an602
+** https://an602.86it.us/index.php (DEMO)
+** Apache License, Version 2.0, MIT license 
 ** Copyright (C) 2021
-** Formerly Known As phpMyBitTorrent
-** Created By Antonio Anzivino (aka DJ Echelon)
-** And Joe Robertson (aka joeroberts/Black_Heart)
-** Project Leaders: Black_Heart, Thor.
+** Formerly Known As PHP-Nuke by Francisco Burzi <fburzi@gmail.com>
+** Created By Ernest Allen Buffington (aka TheGhost or Ghost) <ernest.buffington@gmail.com>
+** And Joe Robertson (aka joeroberts/Black_Heart) for Bit Torrent Manager Contribution!
+** And Technocrat for the Nuke Evolution Contributions
+** And The Mortal, and CoRpSE for the Nuke Evolution Xtreme Contributions
+** Project Leaders: TheGhost, NukeSheriff, TheWolf, CodeBuzzard, CyBorg, and  Pipi
 ** File include/configdata.php 2020-12-22 00:00:00 Black_Heart
 **
 **/
 
-if (!defined('IN_BTM'))
+if (!defined('IN_AN602'))
 {
     die ('Error 404 - Page Not Found');
 }

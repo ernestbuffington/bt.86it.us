@@ -3,15 +3,17 @@
 **********************
 ** BTManager v3.0.1 **
 **********************
-** http://www.btmanager.org/
+** https://an602.86it.us/
 ** https://github.com/blackheart1/BTManager
-** http://demo.btmanager.org/index.php
-** Licence Info: GPL
-** Copyright (C) 2018
-** Formerly Known As phpMyBitTorrent
-** Created By Antonio Anzivino (aka DJ Echelon)
-** And Joe Robertson (aka joeroberts/Black_Heart)
-** Project Leaders: Black_Heart, Thor.
+** https://an602.86it.us/index.php (DEMO)
+** Apache License, Version 2.0, MIT license 
+** Copyright (C) 2022
+** Formerly Known As PHP-Nuke by Francisco Burzi <fburzi@gmail.com>
+** Created By Ernest Allen Buffington (aka TheGhost or Ghost) <ernest.buffington@gmail.com>
+** And Joe Robertson (aka joeroberts/Black_Heart) for Bit Torrent Manager Contribution!
+** And Technocrat for the Nuke Evolution Contributions
+** And The Mortal, and CoRpSE for the Nuke Evolution Xtreme Contributions
+** Project Leaders: TheGhost, NukeSheriff, TheWolf, CodeBuzzard, CyBorg, and  Pipi
 ** File imdb.class.php 2018-07-07 14:32:00 joeroberts
 **
 ** CHANGES
