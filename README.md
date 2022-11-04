@@ -85,7 +85,7 @@ Compact Announce, MultiScrape, DHT, Peer Count, Tracker ID, Unique Peer ID, Back
 ## PHP-AN602 uses a Template System
 ```bash
   This allows you to have each page look as you want it to look depending on the theme you use.
-  Now you can have your site look completely Defrent with each theme.
+  Now you can have your site look completely Different with each theme.
 ```
 
 ## PHP-AN602 is fast!
